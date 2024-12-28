@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML, CSS, JS Grid Layout with Images</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* Three columns of equal width */
+            grid-gap: 20px;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .card img {
+            max-width: 100px;
+            margin-bottom: 10px;
+        }
+
+        .card h2 {
+            font-size: 1.5em;
+            margin-bottom: 5px;
+        }
+
+        .card p {
+            color: #777;
+            margin-bottom: 0;
+        }
+
+        .footer {
+            background-color: #f8f8f8;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="card">
+            <img src="https://th.bing.com/th/id/R.e1d424c4b9be7009dd57ef4e7d58e343?rik=EZ8NO5x85jZ0Vg&riu=http%3a%2f%2f1.bp.blogspot.com%2f-NGHwBncyA68%2fUiMm_8b2ZUI%2fAAAAAAAAAnA%2f17OGXCKI4zE%2fs1600%2fLogo%2bHTML5.JPG&ehk=rnVe3RUksYQ4LMnsZ6Xxyf3F5lkj3Br1Eu6vOVCkYh0%3d&risl=&pid=ImgRaw&r=0" alt="HTML5 Logo"> 
+            <h2>HTML 5</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="card">
+            <img src="https://th.bing.com/th/id/OIP.LzBZtra_HH07xF0NsbYYmwHaE8?rs=1&pid=ImgDetMain" alt="CSS3 Logo"> 
+            <h2>CSS 3</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="card">
+            <img src="https://th.bing.com/th/id/R.d6b6f969f7064f79ce215a661abc959c?rik=5z4SR3tVIDUPYg&pid=ImgRaw&r=0" alt="JavaScript Logo"> 
+            <h2>JavaScript</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="card">
+            <img src="https://th.bing.com/th/id/R.e1d424c4b9be7009dd57ef4e7d58e343?rik=EZ8NO5x85jZ0Vg&riu=http%3a%2f%2f1.bp.blogspot.com%2f-NGHwBncyA68%2fUiMm_8b2ZUI%2fAAAAAAAAAnA%2f17OGXCKI4zE%2fs1600%2fLogo%2bHTML5.JPG&ehk=rnVe3RUksYQ4LMnsZ6Xxyf3F5lkj3Br1Eu6vOVCkYh0%3d&risl=&pid=ImgRaw&r=0" alt="HTML5 Logo"> 
+            <h2>HTML 5</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="card">
+            <img src="https://th.bing.com/th/id/OIP.LzBZtra_HH07xF0NsbYYmwHaE8?rs=1&pid=ImgDetMain" alt="CSS3 Logo"> 
+            <h2>CSS 3</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="card">
+            <img src="https://th.bing.com/th/id/R.d6b6f969f7064f79ce215a661abc959c?rik=5z4SR3tVIDUPYg&pid=ImgRaw&r=0" alt="JavaScript Logo"> 
+            <h2>JavaScript</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        
+    </div>
+
+    <div class="footer">
+        <ul>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+        </ul>
+        <p>© Lorem ipsum</p>
+    </div>
+
+</body>
+</html>

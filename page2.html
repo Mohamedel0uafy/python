@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Layout</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .card {
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .web-server {
+            background: linear-gradient(to right, #ff5722, #4d4d4d);
+            color: white;
+        }
+
+        .text-editor {
+            background: linear-gradient(to right, #007bff, #80d0ff);
+            color: white;
+        }
+
+        .generic {
+            background: #f5f5f5;
+            color: black;
+        }
+
+        .keyboard {
+            background: linear-gradient(to right, #ffcc00, #ff5722);
+            color: white;
+        }
+
+        .card img {
+            display: block;
+            margin: 20px auto;
+            width: 100px;
+            height: auto;
+        }
+
+        .card-body {
+            text-align: center;
+        }
+
+        .card-title {
+            font-weight: bold;
+            color: #ff5722;
+        }
+
+        .card-subtitle {
+            font-weight: bold;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            text-align: center
+        }
+
+        .container {
+            max-width: 900px;
+            text-align: center
+        }
+
+        .row {
+            gap: 30px;
+        }
+
+        .col-md-6 {
+            display: flex;
+            justify-content: center;
+            text-align: center
+        }
+    </style>
+</head>
+<body>
+    <div class="container py-5">
+        
+            <div class="col-md-6">
+                <div class="card generic p-4">
+                    <img src="https://imgs.search.brave.com/3IDjxNK7xi3a-oXA2b0jb018I44ZBHl_2R4WDyJjyLE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzVhLzc1/LzE0LzVhNzUxNDZi/MDRhNmVmOWZhNmM2/MjJmZGE5MzJiZDMx/LmpwZw" alt="Generic Icon 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem ipsum and Yummy Text</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vel ad accusantium sequi.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card text-editor p-4">
+                    <img src="https://imgs.search.brave.com/MRrp301EWgtBd3l9W6iV65fdlqWHoSWgWf-dHHkcits/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4y/Lmljb25maW5kZXIu/Y29tL2RhdGEvaWNv/bnMvbWV0cm8tdWkt/aWNvbi1zZXQvNTEy/L1Zpc3VhbF9TdHVk/aW8ucG5n" alt="Text Editor Icon",width="100px",height="100px">
+                    <div class="card-body">
+                        <h5 class="card-subtitle">Configurer son éditeur de texte</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+            
+
+            
+            <div class="col-md-6">
+                <div class="card keyboard p-4">
+                    <img src="https://imgs.search.brave.com/zjeJWUOxvlej3tses1VbHFrZgdujGlx_KewtKGCehTg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NjFYOVZzczNjbEwu/anBn" alt="Keyboard Icon",width="100px",height="100px">
+                    <div class="card-body">
+                        <h5 class="card-subtitle">Raccourcis clavier</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
